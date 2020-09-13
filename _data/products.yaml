@@ -1,0 +1,49 @@
+- name: Rangrez-01
+  thumbnail: /assets/images/products/rangrez/R-01-Front.jpg
+  available: true
+  brand: Rangrez
+
+- name: Rangrez-02
+  thumbnail: /assets/images/products/rangrez/R-02-Front.jpg
+  available: true
+  brand: Rangrez
+
+- name: Rangrez-03
+  thumbnail: /assets/images/products/rangrez/R-03-Front.jpg
+  available: true
+  brand: Rangrez
+
+- name: Rangrez-04
+  thumbnail: /assets/images/products/rangrez/R-04-Front.jpg
+  available: true
+  brand: Rangrez
+
+- name: Rangrez-05
+  thumbnail: /assets/images/products/rangrez/R-05-Front.jpg
+  available: true
+  brand: Rangrez
+
+- name: Rangrez-07
+  thumbnail: /assets/images/products/rangrez/R-07-Front.jpg
+  available: true
+  brand: Rangrez
+
+- name: Rangrez-09
+  thumbnail: /assets/images/products/rangrez/R-09-Front.jpg
+  available: true
+  brand: Rangrez  
+
+- name: Rangrez-10
+  thumbnail: /assets/images/products/rangrez/R-10-Front.jpg
+  available: true
+  brand: Rangrez  
+
+- name: Rangrez-11
+  thumbnail: /assets/images/products/rangrez/R-11-Front.jpg
+  available: true
+  brand: Rangrez  
+
+- name: Rangrez-12
+  thumbnail: /assets/images/products/rangrez/R-12-Front.jpg
+  available: true
+  brand: Rangrez 

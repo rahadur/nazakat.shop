@@ -1,1 +1,27 @@
-<h1>Welcome to Nazakat</h1>
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+
+
+
+<div class="container mt-3">
+    <div class="row">
+        {% for product in site.data.products %}
+        <div class="col-6 col-md-4 col-lg-3 mt-3">
+            <div class="card shadow-sm">
+                <img class="card-img-top" src="{{ product.thumbnail | relative_url }}" alt="Card image cap">
+                <h5 class="m-2">{{ product.name }}</h5>
+                {% if product.available %}
+                    <p style="color: green; margin-left: 8px;">In Stock</p>
+                {% else %}
+                <p style="color: red; margin-left: 8px;">Sold Out</p>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+        
+    </div>
+</div>
